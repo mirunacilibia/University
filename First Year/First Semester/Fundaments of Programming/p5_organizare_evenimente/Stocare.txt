@@ -1,0 +1,15 @@
+1;Popescu;Ion;Arad;Revolutiei;20
+2;Ionescu;Maria;Bucuresti;Vasile Alecsandri;105
+3;Ardelean;Alina;Cluj;Liviu Rebreanu;59
+4;Dumitrescu;Bogdan;Timisoara;149;33
+
+1;Eveniment;20;12;2020;19;0
+2;Concert;11;3;2021;21;30
+3;Strangere de fonduri;20;12;2020;20;0
+4;Piesa de teatru;28;11;2020;18;45
+
+1;1
+1;2
+1;3
+2;4
+4;3

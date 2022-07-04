@@ -1,0 +1,12 @@
+1;Eveniment;20;12;2020;19;0
+2;Concert;11;3;2021;21;30
+3;Strangere de fonduri;20;12;2020;20;0
+4;Piesa de teatru;28;11;2020;18;45
+5;Cinema in aer liber;20;12;2020;22;0
+6;Festival de muzica;15;7;2021;18;30
+7;Street food festival;15;7;2021;12;0
+8;Premiera de film;28;11;2020;17;45
+9;Deschidere de magazin;5;1;2021;10;45
+10;Targ de Craciun;25;12;2020;17;30
+11;Petrecere de anul nou;31;12;2020;23;0
+12;Spectacol;5;1;2021;19;0

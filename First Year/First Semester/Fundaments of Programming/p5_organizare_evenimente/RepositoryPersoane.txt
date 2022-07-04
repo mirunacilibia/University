@@ -1,0 +1,6 @@
+
+1;Popescu;Ion;Arad;Revolutiei;20
+2;Ionescu;Maria;Bucuresti;Vasile Alecsandri;105
+3;Ardelean;Alina;Cluj;Liviu Rebreanu;59
+4;Dumitrescu;Bogdan;Timisoara;149;33
+5;oare;apare;in fisier;chestia asta;1
