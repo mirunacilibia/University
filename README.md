@@ -14,6 +14,7 @@
 >> * [Object-Oriented Programming](First%20Year/Second%20Semester/Object-Oriented%20Programming)
 >> * [Dynamic Systems]()
 >> * Geometry
+>> * Operating Systems
 
 ### Second Year
 1. First Semester
