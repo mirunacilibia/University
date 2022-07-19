@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="domain.Seat"
+           table="Seats">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+        <property
+                type="java.lang.Integer"
+                name="row"
+                column="row"/>
+        <property
+                type="java.lang.Integer"
+                name="column"
+                column="column"/>
+        <property
+                type="java.lang.Integer"
+                name="number"
+                column="number"/>
+        <property
+                type="java.lang.Double"
+                name="price"
+                column="price"/>
+        <property
+                type="java.lang.Boolean"
+                name="occupied"
+                column="is_occupied"/>
+        <many-to-one
+                name="show"
+                column="show_id"
+                class="domain.Show" not-null="true"/>
+    </class>
+</hibernate-mapping>

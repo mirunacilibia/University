@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="domain.Show"
+           table="Shows">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+        <property
+                type="java.lang.String"
+                name="name"
+                column="name"/>
+        <property
+                type="java.lang.Integer"
+                name="numberOfSeats"
+                column="number_of_seats"/>
+        <property
+                type="java.lang.String"
+                name="date"
+                column="date_of_show"/>
+        <property
+                type="java.lang.Double"
+                name="startingPrice"
+                column="starting_price"/>
+        <list name="seats" cascade="all">
+            <key column="show_id"/>
+            <index column="number"/>
+            <one-to-many class="domain.Seat"/>
+        </list>
+    </class>
+</hibernate-mapping>

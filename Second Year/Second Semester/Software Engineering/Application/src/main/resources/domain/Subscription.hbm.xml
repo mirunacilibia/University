@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="domain.Subscription"
+           table="Subscriptions">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+        <many-to-one
+                name="user"
+                column="user_id"
+                class="domain.User" not-null="true"/>
+        <property
+                type="java.lang.Integer"
+                name="price"
+                column="price"/>
+        <property
+                type="java.lang.Integer"
+                name="showsLeft"
+                column="shows_left"/>
+        <property type="java.lang.Boolean" name="paid" column="is_paid"/>
+    </class>
+</hibernate-mapping>

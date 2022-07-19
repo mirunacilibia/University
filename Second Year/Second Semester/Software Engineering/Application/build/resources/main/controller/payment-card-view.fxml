@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainPane" prefHeight="526.0" prefWidth="764.0" styleClass="mainWindow" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PaymentCardController">
+    <children>
+        <AnchorPane prefHeight="460.0" prefWidth="720.0" styleClass="mainWindow" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <VBox alignment="CENTER" layoutX="190.0" layoutY="160.0" prefHeight="205.0" prefWidth="384.0" spacing="20.0" AnchorPane.bottomAnchor="160.4" AnchorPane.leftAnchor="190.0" AnchorPane.rightAnchor="190.0" AnchorPane.topAnchor="160.0">
+                    <children>
+                        <HBox layoutX="10.0" layoutY="48.0" prefHeight="30.0" prefWidth="384.0">
+                            <children>
+                                <Label fx:id="labelPrice" alignment="CENTER" prefHeight="30.0" prefWidth="394.0" text="Price to pay: #">
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="384.0">
+                            <children>
+                                <Label prefHeight="30.0" prefWidth="129.0" text="Card number:">
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </Label>
+                                <TextField fx:id="textFieldNumber" prefHeight="30.0" prefWidth="260.0">
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </TextField>
+                            </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="72.0" prefHeight="30.0" prefWidth="384.0">
+                            <children>
+                                <Label prefHeight="30.0" prefWidth="129.0" text="Card Name:">
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </Label>
+                                <TextField fx:id="textFieldName" prefHeight="30.0" prefWidth="260.0">
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </TextField>
+                            </children>
+                        </HBox>
+                  <HBox layoutX="10.0" layoutY="247.0" prefHeight="30.0" prefWidth="384.0">
+                     <children>
+                        <Label prefHeight="30.0" prefWidth="129.0" text="Expiration Date:">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="textFieldDate" prefHeight="30.0" prefWidth="260.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="100.0" prefHeight="30.0" prefWidth="384.0">
+                     <children>
+                        <Label prefHeight="30.0" prefWidth="129.0" text="CVV: ">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="textFieldCVV" prefHeight="30.0" prefWidth="260.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0">
+                            <children>
+                                <Label prefHeight="30.0" prefWidth="129.0">
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </Label>
+                                <Button contentDisplay="RIGHT" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onAction="#onPayClick" prefHeight="30.0" prefWidth="260.0" style="-fx-background-color: #726DA8;" styleClass="buttonMain" text="Pay" />
+                            </children>
+                        </HBox>
+                    </children>
+                </VBox>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

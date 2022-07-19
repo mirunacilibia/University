@@ -1,0 +1,89 @@
+/*
+culori:
+#FDFCDC - galben deschis
+#FED9B7 - piersicuta
+#7D8CC4 - albastru deschis
+#726DA8 - albastru inchis
+*/
+
+Button {
+    -fx-border-radius: 40px;
+    -fx-background-radius: 40px;
+    -fx-background-color: #FDFCDC;
+    -fx-text-fill: black;
+}
+
+Buttton:hover{
+    -fx-background-color: #FED9B7;
+}
+
+TableView{
+    -fx-background-radius: 10px;
+    -fx-border-color: black;
+    -fx-background-color: FED9B7;
+}
+
+ComboBox{
+    -fx-background-radius: 10px;
+    -fx-border-color: black;
+    -fx-border-radius: 10px;
+    -fx-background-color: FED9B7;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, #7D8CC4, #726DA8);
+    -fx-background-insets: 0 11px 0 0;
+    -fx-padding: 0 0 5px 0;
+}
+
+.sidebar{
+    -fx-background-color: #726DA8;
+}
+
+.mainWindow{
+    -fx-background-color: #FDFCDC;
+}
+
+.buttonSeats{
+    -fx-border-style: transparent;
+    -fx-border-color: transparent;
+}
+
+.buttonMain{
+    -fx-border-color: black;
+    -fx-border-style: solid;
+}
+
+.seatPicked {
+    -fx-pref-height: 50px;
+    -fx-pref-width: 50px;
+    -fx-background-image: url("seat_picked.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+.seatUnoccupied {
+    -fx-pref-height: 50px;
+    -fx-pref-width: 50px;
+    -fx-background-image: url("seat_free.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+.seatOccupied {
+    -fx-pref-height: 50px;
+    -fx-pref-width: 50px;
+    -fx-background-image: url("seat_occupied.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
