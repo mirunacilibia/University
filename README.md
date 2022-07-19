@@ -12,17 +12,17 @@
 
 2. Second semester
 >> * [Data Structures and Algorithms]()
->> * [Graph Algorithms]()
->> * [Object-Oriented Programming]()
+>> * [Graph Algorithms](First%20Year/Second%20Semester/Graph%20Algorithms)
+>> * [Object-Oriented Programming](First%20Year/Second%20Semester/Object-Oriented%20Programming)
 >> * [Dynamic Systems]()
 >> * Geometry
 
 ### Second Year
 1. First Semester
 >> * [Computer Networks]()
->> * [Functional and Logic Programming]()
->> * [Advanced Programming Methods]()
->> * [Probability and Statistics]()
+>> * [Functional and Logic Programming](Second%20Year/First%20Semester/Functional%20and%20Logical%20Programming)
+>> * [Advanced Programming Methods](https://github.com/mirunacilibia/Social-Network-Application)
+>> * [Probability and Statistics](Second%20Year/First%20Semester/Probability%20and%20Statistics)
 >> * Databases
 2. Second Semester
 >> * [Software Engineering]()
