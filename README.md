@@ -1,14 +1,12 @@
 ### University projects
 
-##### University courses and the assignments done for them
-
 ### First Year
 1. First Semester
 >> * [Fundamentals of programming](First%20Year/First%20Semester/Fundaments%20of%20Programming)
 >> * Algebra
 >> * Mathematical Analysis
 >> * Computational Logic
->> * [Computer System Arhitecture]()
+>> * Computer System Arhitecture
 
 2. Second semester
 >> * [Data Structures and Algorithms]()
@@ -16,6 +14,7 @@
 >> * [Object-Oriented Programming](First%20Year/Second%20Semester/Object-Oriented%20Programming)
 >> * [Dynamic Systems]()
 >> * Geometry
+>> * Operating Systems
 
 ### Second Year
 1. First Semester
