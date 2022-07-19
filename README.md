@@ -6,7 +6,7 @@
 >> * Algebra
 >> * Mathematical Analysis
 >> * Computational Logic
->> * [Computer System Arhitecture]()
+>> * Computer System Arhitecture
 
 2. Second semester
 >> * [Data Structures and Algorithms]()
