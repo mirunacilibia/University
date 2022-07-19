@@ -1,7 +1,5 @@
 ### University projects
 
-##### University courses and the assignments done for them
-
 ### First Year
 1. First Semester
 >> * [Fundamentals of programming](First%20Year/First%20Semester/Fundaments%20of%20Programming)
