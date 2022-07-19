@@ -1,0 +1,27 @@
+2. Definiti o functie care obtine dintr-o lista data lista tuturor atomilor care apar, pe orice nivel,
+dar in aceeasi ordine. De exemplu (((A B) C) (D E)) --> (A B C D E)
+
+I. Model matematic
+
+Vom avea functia atomi, care se va folosi de functia MAP mapcan
+
+atomi(elem) = 	{ (elem)		, daca elem e atom
+		{ U i = 1, n atomi(elem(i))	, daca elem e lista elem(1)elem(2)..elem(n)
+
+II. Implementare Lisp
+
+
+(defun atomi (elem)
+	(cond
+		((atom elem) (list elem))
+		(t (mapcan #'atomi elem) )
+	)
+)
+
+III. Exemple
+
+(atomi '((1 2 (3 4) 5 (6 (7 8)))))	-> (1 2 3 4 5 6 7 8)
+
+(atomi '(1 2 3 4))			-> (1 2 3 4)
+
+(atomi '(1 (2 3) 4 ((5))))		-> (1 2 3 4 5)

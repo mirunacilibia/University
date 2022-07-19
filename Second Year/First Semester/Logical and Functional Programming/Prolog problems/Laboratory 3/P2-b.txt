@@ -1,0 +1,53 @@
+b) Se da o lista eterogena, formata din numere intregi si liste de cifre.
+Pentru fiecare sublista sa se determine succesorul numarului reprezentat
+cifra cu cifra de lista respectiva. De ex:
+[1, [2, 3], 4, 5, [6, 7, 9], 10, 11, [1, 2, 0], 6] =>
+[1, [2, 4], 4, 5, [6, 8, 0], 10, 11, [1, 2, 1], 6]
+
+
+i) Modelul matematic
+
+Vom avea o functie succesor_lista care verifica pentru fiecare element al listei eterogene daca elementul este
+o lista, iar daca da, aplica functia de la subpunctul a) asupra acestei liste
+
+l1l2...ln - o lista de numere intregi
+
+succesor_lista(l1l2...ln) =	{ ∅						, daca n = 0	
+				{ succesor(l1) (+) succesor_lista(l2l3...ln)	, daca l1 este lista
+				{ l1 (+) succesor_lista(l2l3...ln)		, daca l1 nu este lista
+
+
+ii) Implementare prolog + modele de flux
+
+%succesor_lista(L: list, R: list)
+% L - lista initiala
+% R - lista rezultat
+% 
+% modele de flux: (i, o), (i, i)
+
+succesor_lista([], []).
+succesor_lista([H|T], [Succesor|R]):-
+    is_list(H), !, 
+	succesor(H, Succesor),
+    succesor_lista(T, R).
+succesor_lista([H|T], [H|R]):-
+    succesor_lista(T, R).
+
+iii) Teste
+
+succesor_lista([[1], [9, 9], 4, 1, 15, [1, 2, 9], 6], R).
+
+-> [[2], [1, 0, 0], 4, 1, 15, [1, 3, 0], 6]
+
+succesor_lista([1, 2, 3, 4, 5], R).
+
+-> [1, 2, 3, 4, 5]
+
+
+succesor_lista([[1, 2, 3, 4, 5], [9, 9], 1, 2, 3, [], [5, 9]], R).
+
+-> [[1, 2, 3, 4, 6], [1, 0, 0], 1, 2, 3, [], [6, 0]]
+
+
+
+		

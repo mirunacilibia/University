@@ -1,0 +1,52 @@
+4. Sa se converteasca un arbore de tipul (2) la un arbore de tipul (1).
+
+I. Modele matematice
+
+Vom avea nevoie de 2 functii: una care verifica cati subarbori are un nod, iar una care construieste lista
+
+nr_subarbori(l1l2..ln) ={ 0								, l e vida
+			{ nr_subarbori(l2l3..ln)					, l1 e lista si l1 e vida
+			{ 1 + nr_subarbori(l2l3..ln)					, altfel
+
+convert(l1l2..ln) = 	{ ∅								, l e vida
+			{ l1 (+) nr_subarbori(l2..ln) (+) convert(s1) (+) convert(d1)	, unde l2 = s1s2..sk
+											  si l3 = d1d2..dm  
+
+II. Implementare Lisp
+
+(defun nr_subarbori(l)
+	(cond
+		((null l) 0)
+		(	(and 	(listp (car l))
+				(= (length (car l)) 0) 
+		  	)
+			(nr_subarbori (cdr l))
+		)
+		(t (+ 1 (nr_subarbori (cdr l))))
+	)
+)
+
+
+(defun convert(l)
+	(cond
+		((null l) nil)
+		(t (append
+			(append
+				(append (list (car l))
+					(list (nr_subarbori(cdr l)))
+				)
+				(convert (car (cdr l)))
+			)
+			(convert(car (cdr (cdr l))))
+		))
+	)
+)
+
+III. Exemple
+
+(convert '(A (B () (F)) (C (D (G) (H)) (E))))	-> (A 2 B 1 F 0 C 2 D 2 G 0 H 0 E 0)
+
+(convert '(A (B) (C (D) (E))))			-> (A 2 B 0 C 2 D 0 E 0)
+
+(convert '(A))					-> (A 0)
+
