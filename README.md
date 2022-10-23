@@ -29,3 +29,12 @@
 >> * [Database Management Systems]()
 >> * [Web Programming]()
 >> * [Systems for Design and Implementation]()
+
+### Third Year
+1. First Semester
+>> * [Formal Languages and Compiler Design]()
+>> * [Parallel and Distributed Programming]()
+>> * [Mobile Application Programming]()
+>> * [Robotic Process Automation]()
+>> * [Virtual reality]()
+
