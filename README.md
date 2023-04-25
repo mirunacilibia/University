@@ -18,13 +18,13 @@
 
 ### Second Year
 1. First Semester
->> * [Computer Networks]()
+>> * [Computer Networks](Second%20Year/First%20Semester/Computer%20Networks)
 >> * [Functional and Logic Programming](Second%20Year/First%20Semester/Functional%20and%20Logical%20Programming)
 >> * [Advanced Programming Methods](https://github.com/mirunacilibia/Social-Network-Application)
 >> * [Probability and Statistics](Second%20Year/First%20Semester/Probability%20and%20Statistics)
 >> * Databases
 2. Second Semester
->> * [Software Engineering]()
+>> * [Software Engineering](Second%20Year/Second%20Semester/Software%20Engineering)
 >> * [Artificial Intelligence]()
 >> * [Database Management Systems]()
 >> * [Web Programming]()
