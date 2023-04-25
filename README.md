@@ -26,7 +26,7 @@
 2. Second Semester
 >> * [Software Engineering](Second%20Year/Second%20Semester/Software%20Engineering)
 >> * [Artificial Intelligence]()
->> * [Database Management Systems]()
+>> * Database Management Systems
 >> * [Web Programming]()
 >> * [Systems for Design and Implementation]()
 
