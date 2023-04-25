@@ -38,3 +38,10 @@
 >> * [Robotic Process Automation]()
 >> * [Virtual reality]()
 
+2. Second Semester
+>> * [Numerical Calculus]()
+>> * [Software Systems Verification and Validation]()
+>> * [Game Development]()
+>> * [Blockchain: Smart Contracts]()
+>> * [History of Informatics]()
+
