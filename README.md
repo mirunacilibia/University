@@ -9,11 +9,11 @@
 >> * Computer System Arhitecture
 
 2. Second semester
->> * [Data Structures and Algorithms]()
+>> * [Data Structures and Algorithms](First%20Year/Second%20Semester/Data%20Structures%20and%20Algorithms)
 >> * [Graph Algorithms](First%20Year/Second%20Semester/Graph%20Algorithms)
 >> * [Object-Oriented Programming](First%20Year/Second%20Semester/Object-Oriented%20Programming)
->> * [Dynamic Systems]()
->> * Geometry
+>> * [Dynamic Systems](First%20Year/Second%20Semester/Dynamic%20Systems)
+>> * [Geometry](First%20Year/Second%20Semester/Geometry)
 >> * Operating Systems
 
 ### Second Year
@@ -22,11 +22,11 @@
 >> * [Functional and Logic Programming](Second%20Year/First%20Semester/Functional%20and%20Logical%20Programming)
 >> * [Advanced Programming Methods](https://github.com/mirunacilibia/Social-Network-Application)
 >> * [Probability and Statistics](Second%20Year/First%20Semester/Probability%20and%20Statistics)
->> * Databases
+>> * [Databases](Second%20Year/First%20Semester/Databases)
 2. Second Semester
 >> * [Software Engineering](Second%20Year/Second%20Semester/Software%20Engineering)
 >> * [Artificial Intelligence]()
->> * Database Management Systems
+>> * [Database Management Systems]()
 >> * [Web Programming]()
 >> * [Systems for Design and Implementation]()
 
@@ -37,6 +37,7 @@
 >> * [Mobile Application Programming]()
 >> * [Robotic Process Automation]()
 >> * [Virtual reality]()
+>> * [Research Project]()
 
 2. Second Semester
 >> * [Numerical Calculus]()
